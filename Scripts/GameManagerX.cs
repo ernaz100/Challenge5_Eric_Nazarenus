@@ -14,7 +14,7 @@ public class GameManagerX : MonoBehaviour
     public TextMeshProUGUI timerText;
     public List<GameObject> targetPrefabs;
 
-    private int timer = 5;
+    private int timer = 60;
     private int score;
     private float spawnRate = 1.5f;
     public bool isGameActive;
